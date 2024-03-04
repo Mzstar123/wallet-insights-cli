@@ -1,0 +1,32 @@
+{
+  "name": "wallet-insights-cli",
+  "version": "0.1.1",
+  "description": "A CLI tool to display insights of Ethereum wallets using web3-wallet-insights.",
+  "main": "index.js",
+  "bin": {
+    "wallet-insights-cli": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mzstar123/wallet-insights-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "web3",
+    "crypto",
+    "wallet",
+    "insights",
+    "ethereum"
+  ],
+  "author": "Mzstar123",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "yargs": "^16.2.0",
+    "web3-wallet-insights": "^0.1.0",
+    "wallet-insights-cli": "^0.1.0"
+  }
+}
